@@ -1,0 +1,29 @@
+.calendar-page .card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.calendar-page__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.calendar-page__list li {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.calendar-page__list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.calendar-page__list-label {
+  flex: 1;
+  font-weight: 500;
+}

@@ -1,0 +1,22 @@
+.settings-page .card {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.settings-page__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.settings-page__row:last-child {
+  border-bottom: none;
+}
+
+.settings-page__row .form-check-input {
+  width: 2.4em;
+  height: 1.3em;
+}

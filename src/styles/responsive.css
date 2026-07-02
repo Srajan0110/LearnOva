@@ -1,0 +1,24 @@
+/* Breakpoints: mobile <640px, tablet <1024px, desktop >=1024px */
+
+@media (max-width: 1024px) {
+  :root {
+    --sidebar-width: 200px;
+  }
+  .page {
+    padding: var(--space-5);
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --sidebar-width: 0px;
+  }
+  .page {
+    padding: var(--space-4);
+  }
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 22px; }
+  h2 { font-size: 18px; }
+}
