@@ -87,7 +87,37 @@ src/
 ├── styles/
 └── data/
 ```
+## 📸 Project Preview
 
+<p align="center">
+  <img src="public/screenshots/dashboard.png" width="48%">
+  <img src="public/screenshots/courses.png" width="48%">
+</p>
+
+<p align="center">
+  <img src="public/screenshots/students.png" width="48%">
+  <img src="public/screenshots/assignment.png" width="48%">
+</p>
+
+<p align="center">
+  <img src="public/screenshots/quizzes.png" width="48%">
+  <img src="public/screenshots/live-classes.png" width="48%">
+</p>
+
+<p align="center">
+  <img src="public/screenshots/my-learning.png" width="48%">
+  <img src="public/screenshots/messages.png" width="48%">
+</p>
+
+<p align="center">
+  <img src="public/screenshots/notes.png" width="48%">
+  <img src="public/screenshots/certificates.png" width="48%">
+</p>
+
+<p align="center">
+  <img src="public/screenshots/profile.png" width="48%">
+  <img src="public/screenshots/schedule-calendar.png" width="48%">
+</p>
 ---
 
 ## ⚙️ Installation
