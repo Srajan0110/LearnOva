@@ -1,37 +1,148 @@
-# LearnOva
+# 🎓 LearnOva
 
-A Learning Management System (LMS) dashboard built with React + Vite + Bootstrap.
+LearnOva is a modern and responsive **Learning Management System (LMS)** dashboard built using **React, Vite, Bootstrap, and React Router**. It provides an intuitive interface for managing courses, students, assignments, quizzes, and learning progress through a clean and user-friendly dashboard.
 
-## Getting started
+---
+
+## 🚀 Features
+
+- 📊 Interactive Dashboard with statistics cards, weekly learning chart, and calendar
+- 📚 Course Catalog with search, category filtering, and course details modal
+- 👨‍🎓 Student Management (Add, Remove, Search, and Filter Students)
+- 📝 Assignments Management
+- ❓ Quizzes
+- 🎥 Live Classes
+- 📒 Notes
+- 💬 Messages
+- 🏆 Certificates
+- 📅 Calendar
+- 👤 Profile Management
+- ⚙️ Settings Page
+- 🔍 Functional Search Bar
+- 🔔 Notifications Dropdown
+- 📱 Fully Responsive Design
+- 🎨 Modern UI with Sidebar Navigation
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- Bootstrap 5
+- React Router DOM
+- React Icons
+- CSS3
+- JavaScript (ES6+)
+
+---
+
+## 📖 React Concepts Used
+
+- Props
+- useState Hook
+- Component Reusability
+- Conditional Rendering
+- Event Handling
+- Array Methods (`map()`, `filter()`)
+- React Router
+- Responsive Layouts
+- Bootstrap Grid System
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── assets/
+├── components/
+│   ├── Navbar
+│   ├── Sidebar
+│   ├── Card
+│   ├── CourseCard
+│   ├── Calendar
+│   ├── Chart
+│   └── Loader
+│
+├── layouts/
+│   └── MainLayout
+│
+├── pages/
+│   ├── Dashboard
+│   ├── Courses
+│   ├── Students
+│   ├── Assignments
+│   ├── Quizzes
+│   ├── LiveClasses
+│   ├── Notes
+│   ├── Messages
+│   ├── Certificates
+│   ├── Profile
+│   └── Settings
+│
+├── routes/
+├── services/
+├── styles/
+└── data/
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Srajan0110/LearnOva.git
+```
+
+Navigate to the project directory
+
+```bash
+cd LearnOva
+```
+
+Install dependencies
 
 ```bash
 npm install
+```
+
+Run the development server
+
+```bash
 npm run dev
 ```
 
-## Features
+---
 
-- Dashboard with stat cards, a weekly-hours chart and a calendar
-- Sidebar navigation + a functional Navbar (search box, notifications dropdown)
-- Course catalog with search, category filter and a course-details modal
-- Student list with add / remove student, search and course filter
-- Assignments, Quizzes, Live Classes, Notes, Messages, Certificates, Calendar
-- Profile and Settings pages with editable form state
+## 📸 Screenshots
 
-## Concepts used
+> Add screenshots of your Dashboard, Courses, Student Management, and other pages here.
 
-- **Props** — components like `CourseCard`, `Card`, and `Calendar` are all driven by props
-- **useState** — search boxes, filters, the add/remove student form, the notification dropdown, settings toggles
-- **map()** — rendering every list: courses, students, assignments, quizzes, notes, messages
-- **filter()** — course search + category filter, student search + course filter, assignment status filter
-- **Bootstrap Grid** — `container` / `row` / `col-*` layout on Courses, Students, Assignments, Quizzes, Live Classes, Notes, Certificates, Profile and Settings, plus Bootstrap form/table/badge components
+---
 
-## Structure
+## 🔮 Future Improvements
 
-- `src/components` — reusable UI pieces (Navbar, Sidebar, Card, CourseCard, Chart, Calendar, Loader)
-- `src/layouts` — page shells (MainLayout wraps Sidebar + Navbar around routed pages)
-- `src/pages` — one folder per route, including the new `Students` page
-- `src/data/mockData.js` — shared dummy data (courses, students, assignments, quizzes, live classes, messages, notes, certificates) so every page references consistent, logically-linked content
-- `src/routes/AppRoutes.jsx` — route definitions
-- `src/services/api.js` — fetch wrapper for a real backend, ready to swap in for `mockData.js`
-- `src/styles` — global tokens (variables, typography, global, responsive)
+- Backend Integration (Node.js + Express)
+- MongoDB Database
+- JWT Authentication
+- Role-Based Access (Admin, Teacher, Student)
+- Video Lectures
+- Progress Tracking
+- Certificate Generation
+- API Integration
+
+---
+
+## 👨‍💻 Author
+
+**Srajan Shukla**
+
+GitHub: https://github.com/Srajan0110
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
